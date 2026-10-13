@@ -1,24 +1,28 @@
 # OpportunityDesk design
 
-This marketing page introduces business sourcing for brokers, real estate professionals, and acquisition teams. Its primary action creates a downloadable sourcing brief.
+## Direction
 
-## Identity
-
-Preserve the original green connected-circle icon, its proportions, and its #5be69d color. Keep the blue, navy, and pale lavender visual world.
+An editorial business advisory page. The first viewport is centered, oversized typography on deep navy, followed by a wide storefront photograph. The original green connected-circle icon is preserved. This replaces the earlier light blue map-led composition.
 
 ## Tokens
 
-- Primary text: #182a48; secondary text: #53627a.
-- Action blue: #2f50be; pale surface: #eef1f8; lavender surface: #eff0f9.
-- Paper: #fcfdff; divider: #dce3ee.
-- Instrument Sans is hosted locally with its OFL license in dist/fonts/.
-- Heading tracking stays at or above -0.04em; headings use balanced wrapping.
-- The content width is capped at 1240px. Distinct sections have generous space; related fields stay together.
+- Deep navy and primary text: #102c37.
+- Paper: #fafbf8; pale surface: #edf1ed; focus and form surface: #dfeae1.
+- Original brand green and primary actions: #5be69d.
+- Secondary text: #53646b; secondary text on navy: #b9c9ca.
+- Divider: #d7ded9.
+- Self-hosted Instrument Sans, weights 400–700. Font license in dist/fonts/OFL.txt.
+- Hero display: up to 90px; section headings up to 54px. Tracking never below -0.04em.
+- Content width: 1240px. Desktop sections: 112px vertical spacing. Mobile sections: 64px.
 
-## Components
+## Composition
 
-The map is an illustrative diagram rather than live inventory. Keep its geometry quiet and its owner-context row separate from the map. Use a border or a shadow for elevation, and avoid decorative floating cards.
+The photograph carries the business context. Benefits are flat columns; the process is a vertical sequence; audience selection is a vertical list beside an open content area. The brief occupies a full-width panel below its introduction. Use spacing and dividers to group content; avoid floating map cards or nested cards.
 
-On narrow screens, stack the hero and use full-width role buttons. Form labels remain at least 14px and inputs at least 16px. Preserve keyboard focus, reduced-motion support, and the role-to-form handoff.
+Buttons use an 8px radius, form inputs 6px, and image/form panels 12–16px. Native selection, caret, scrollbars, focus, hover, and expanded FAQ states use the palette. The photo has one short clip reveal; reduced motion disables it and smooth scrolling.
 
-Do not add invented results or testimonials. The form downloads a local brief and must never imply that an enquiry was sent.
+## Responsive behavior and content
+
+At narrow widths, stack sections, role choices, and fields. Keep labels at 14px and inputs at 16px. Preserve keyboard role selection and the role-to-form handoff. The original icon stays green on navy.
+
+Street photography and example criteria are illustrative. Do not imply the photographed businesses are clients or available inventory. Preserve the local brief download and clearly state that no enquiry is sent. Do not invent testimonials or results.

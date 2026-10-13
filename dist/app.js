@@ -49,7 +49,7 @@ function selectRole(tab) {
 tabs.forEach((tab, index) => {
   tab.addEventListener('click', () => selectRole(tab));
   tab.addEventListener('keydown', (event) => {
-    const moves = { ArrowRight: (index + 1) % tabs.length, ArrowLeft: (index + tabs.length - 1) % tabs.length, Home: 0, End: tabs.length - 1 };
+    const moves = { ArrowDown: (index + 1) % tabs.length, ArrowUp: (index + tabs.length - 1) % tabs.length, ArrowRight: (index + 1) % tabs.length, ArrowLeft: (index + tabs.length - 1) % tabs.length, Home: 0, End: tabs.length - 1 };
     if (Object.hasOwn(moves, event.key)) {
       event.preventDefault();
       const next = tabs[moves[event.key]];

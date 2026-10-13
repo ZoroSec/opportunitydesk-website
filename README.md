@@ -2,9 +2,9 @@
 
 A complete static website with responsive navigation, accessible role tabs, FAQ disclosures, and a sourcing brief download.
 
-The refined design uses a locally hosted Instrument Sans font. Its license is included in `dist/fonts/OFL.txt`; visual conventions are recorded in `DESIGN.md`.
+The redesigned page uses a deep navy opening, a panoramic storefront photograph, locally hosted Instrument Sans typography, and editorial layouts. Photo attribution is recorded in ASSETS.md. Its license is included in `dist/fonts/OFL.txt`; visual conventions are recorded in `DESIGN.md`.
 
-The download happens in the visitor's browser. There is no enquiry backend or email recipient; this preserves the source website's stated behavior. Sample business context and map are illustrative.
+The download happens in the visitor's browser. There is no enquiry backend or email recipient; this preserves the source website's stated behavior. Example search criteria and street photography are illustrative.
 
 Serve `dist/` using any static HTTP server. Edit `dist/index.html`, `style.css`, and `app.js` to change content or behavior. Hosting identity is preserved in `.openai/hosting.json`.
 
